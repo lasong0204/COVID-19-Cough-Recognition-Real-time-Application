@@ -1,13 +1,13 @@
 # Sesac_Project_COVID19_Cough_Recognition(Real-Time Application)
 
 &nbsp;
-<img src="./image/main.png" height="120">
+<img src="./image/image.png" width="500" height="120">
 &nbsp;
 ## 🎈 __목차__
 1. Subject모델 적용
     * 추진배경
     * 기대효과
-2. information
+2. Information
     * 음성데이터에 대하여
     * 추진과정
 3. Datasets
@@ -27,12 +27,15 @@
 
 &nbsp;
 ## 🎈 __Subject__
-1. Subject모델 적용
-    1) 추진배경
-      * 코로나19 재유행에 따라 기침소리를 이용해 실시간으로 감염여부를 판단하고자 함<img src="./image/image1_1.png" height="175">
-      <Covid19 일별 확진자 동향><img src="./image/image1_2.png" height="175">
-      <엘리베이터 감염 사례>
-      * Covid19의 주요증상인 "기침소리"만으로 간이진단
-         > ㅇㄹㅇㄴㄹㄹㄴㄹㄴㅇㄴㅇ
+1. 추진배경
+
+코로나19 재유행에 따라 기침소리를 이용해 실시간으로 감염여부를 판단하고자 함
+
+![](./image/image.png)</br>Covid19 일별 확진자 동향 : (출처 - Google News 검색)
+
+감염자의 접근이 쉽고
+
+![](./image/image.png)</br>엘리베이터 감염 사례 : (출처 - 한국일보, New1, 인사이트)
+
       
     
