@@ -107,7 +107,7 @@
    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
    * 2015년 ILSVRC에서 우승한 알고리즘
 
-![](./image/image_5_1.png)</br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
+![](./image/image.png)</br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
 </br>
 * 과적합 방지를 위한 5-fold Cross Validation
 </br>
@@ -118,7 +118,7 @@
 * ResNet50을 통한 Melspectogram 이미지 분류 : 정확도 55% ~ 60%
 * MFCC, MelSpectrogram으로 추출한 feature를 활용해 그림을 모델에 적용 : 정확도 55% ~ 60%
 
-![](./image/image_5_2.png)</br>성능평가 수치
+![](./image/image.png)</br>성능평가 수치
 
       
 
@@ -133,7 +133,7 @@
    * Librosa : 음성데이터의 특징 변수 추출
    * Torch : Pytorch를 활용한 학습모델 적용
 
-![](./image/image.png)</br>주요 라이브러리
+![](./image/image_5_1.png)</br>주요 라이브러리
 </br>
 </br>
 </br>
@@ -149,7 +149,7 @@
    * Python 애플리케이션과 모든 종속 항목을 단일 패키지로 묶어 주는 라이브러리
    * Windows OS 기반 Python 미설치 환경에서도 운영가능하도록 exe 파일형태로 제작
 
-![](./image/image.png)</br>데모시현 장면
+![](./image/image_5_2.png)</br>데모시현 장면
 
       
 
