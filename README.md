@@ -181,20 +181,33 @@
    * Qdesigner를 이용하여 전체적인 UI 디자인을 간단하게 진행 
    * Qthread를 이용하여 기본 앱에 실시간 입력 쓰레드의 효율적인 운영
    * Qdesigner를 이용하여 전체적인 UI 디자인을 간단하게 진행 
-    * 기본 앱 (공지사항, 코로나 탐지결과 등)
-    * 추가 윈도우창1 (실시간 음성 데이터 입력 및 처리 쓰레드 운영)
-    * 추가 윈도우창2 (실시간 영상 데이터 입력 및 처리 쓰레드 운영)
+ 
+ 
+ 
+|구분|내용|
+|---|---|
+|기본앱|대쉬보드, 코로나탐지결과 등|
+|윈도우1|실시간 음성 데이터 입력 및 처리 쓰레드 운영|
+|윈도우2|실시간 영상 데이터 입력 및 처리 쓰레드 운영|
+|비고|음성 데이터 입력과 동시에 학습모델 처리 진행|
+
+
+
+</br>
+
+
+
 * Pyinstaller를 이용한 실행파일 제작
    * Python 애플리케이션과 모든 종속 항목을 단일 패키지로 묶어 주는 라이브러리
    * Windows OS 기반 Python 미설치 환경에서도 운영가능하도록 exe 파일형태로 제작
-   * (*) 여기서 문제가 되었던 부분은 하나의 파일로 만들기 위해 pyinstaller 명령어에  ```--onefile```옵션을 다는 것을 추천하지 않겠다. 라이브러리 누락으로 실행의 오류가 걸릴 가능성이 높다
+   * (*) 여기서 문제가 되었던 부분은 하나의 파일로 만들기 위해 pyinstaller 명령어에  ```--onefile```옵션을 다는 것을 추천하지 않겠다. 라이브러리 누락으로 실행의 오류가 걸릴 가능성이 높다.
    * (*) 또한 librosa 라이브러리의 경우, librosa/util/example_data가 누락되었다는 오류가 뜨므로, ```--add-data [파이썬 위치]/Lib/site-packages/librosa/util/example_data;librosa/util/example_data```옵션을 추가하여 파일을 수동으로 복사해주는 것이 좋다.
 
 
 
 |구분|이상없음|기침감지|코로나감지|
 |---|---|---|---|
-|사진(앱)|<img src="./image/image_5_3.png" width="300" height="400">|<img src="./image/image_5_2.png" width="300" height="400">|<img src="./image/image_5_4.png" width="300" height="400">|
+|사진(앱)|<img src="./image/image_5_3.png" width="300" height="350">|<img src="./image/image_5_2.png" width="300" height="350">|<img src="./image/image_5_4.png" width="300" height="350">|
 
 
 
