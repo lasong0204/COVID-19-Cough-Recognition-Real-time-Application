@@ -107,7 +107,7 @@
    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
    * 2015년 ILSVRC에서 우승한 알고리즘
 
-![](./image/image.png)</br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
+![](./image/image_5_1.png)</br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
 </br>
 * 과적합 방지를 위한 5-fold Cross Validation
 </br>
@@ -118,7 +118,7 @@
 * ResNet50을 통한 Melspectogram 이미지 분류 : 정확도 55% ~ 60%
 * MFCC, MelSpectrogram으로 추출한 feature를 활용해 그림을 모델에 적용 : 정확도 55% ~ 60%
 
-![](./image/image.png)</br>성능평가 수치
+![](./image/image_5_2.png)</br>성능평가 수치
 
       
 
@@ -127,18 +127,17 @@
 &nbsp;
 ## 🎈 __Service__
 1. 프로토타입 구현
-* 코로나19 재유행에 따라 기침소리를 이용해 실시간으로 감염여부를 판단하고자 함
-
-![](./image/image.png)</br>Covid19 일별 확진자 동향 : (출처 - Google News 검색)
-</br>
-</br>
-</br>
-2. 애플리케이션 제작
 * 각종 라이브러리를 이용한 음성 및 영상 데이터 입력 
    * Pyaudio : 마이크를 통한 음성데이터 입력 및 사운드파일 저장
    * OpenCV : 웹캠을 통한 영상데이터 입력 및 이미지파일 저장
    * Librosa : 음성데이터의 특징 변수 추출
    * Torch : Pytorch를 활용한 학습모델 적용
+
+![](./image/image.png)</br>주요 라이브러리
+</br>
+</br>
+</br>
+2. 애플리케이션 제작
 * PyQt5를 이용한 GUI 형태의 애플리케이션 구현
    * Qdesigner를 이용하여 전체적인 UI 디자인을 간단하게 진행 
    * Qthread를 이용하여 기본 앱에 실시간 입력 쓰레드의 효율적인 운영
