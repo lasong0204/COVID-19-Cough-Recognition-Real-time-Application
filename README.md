@@ -32,7 +32,7 @@
 1. 추진배경
 * 코로나19 재유행에 따라 기침소리를 이용해 실시간으로 감염여부를 판단하고자 함
 
-![](./image/image.png)</br>Covid19 일별 확진자 동향 : (출처 - Google News 검색)
+![](./image/image_1_1.png)</br>Covid19 일별 확진자 동향 : (출처 - Google News 검색)
 </br>
 </br>
 </br>
@@ -41,7 +41,7 @@
    * 의심환자의 경우, 선별진료소 방문 등의 조치
    * 관리자의 경우, 의심환자 발생 공간(엛리베이터)에 방역 실시
 
-![](./image/image.png)</br>엘리베이터 감염 사례 : (출처 - 한국일보, New1, 인사이트)
+![](./image/image_1_2.png)</br>엘리베이터 감염 사례 : (출처 - 한국일보, New1, 인사이트)
 
       
 
@@ -72,7 +72,7 @@
    * 학습모델 생성 및 Binary Classfication(COVID)
 * 프로토타입 제작
 * 
-![](./image/image.png)</br>COVID19 Cough Recognition Process
+![](./image/image_2_3.png)</br>COVID19 Cough Recognition Process
    
    
    
@@ -82,7 +82,7 @@
 1. 데이터 수집
 * 다양한 기침 및 코로나 데이터셋 수집, 기타 소리분류를 위한 추가 데이터셋 수집
 
-![](./image/image.png)</br>데이터셋 수집현황
+![](./image/image_3_1.png)</br>데이터셋 수집현황
 </br>
 </br>
 </br>
@@ -90,7 +90,7 @@
 * SMOTE(Synthtic Minority Oversampling Technique)
    * 주제 특성상 양성데이터의 수가 적어 각각의 데이터 개수를 비슷하게 맞춰주기 위해 음성데이터는 Under sampling, 양성데이터는 Over sampling 진행
 
-![](./image/image.png)</br>데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 오버샘플링 방식
+![](./image/image_3_2.png)</br>데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 오버샘플링 방식
 
       
 
@@ -107,7 +107,7 @@
    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
    * 2015년 ILSVRC에서 우승한 알고리즘
 
-![](./image/image.png)</br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
+![](./image/image_4_1.png)</br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
 </br>
 * 과적합 방지를 위한 5-fold Cross Validation
 </br>
@@ -118,7 +118,9 @@
 * ResNet50을 통한 Melspectogram 이미지 분류 : 정확도 55% ~ 60%
 * MFCC, MelSpectrogram으로 추출한 feature를 활용해 그림을 모델에 적용 : 정확도 55% ~ 60%
 
-![](./image/image.png)</br>성능평가 수치
+![](./image/image_4_2.png)</br>성능평가 수치 1
+![](./image/image_4_3.png)</br>성능평가 수치 2
+![](./image/image_4_4.png)</br>성능평가 수치 3
 
       
 
