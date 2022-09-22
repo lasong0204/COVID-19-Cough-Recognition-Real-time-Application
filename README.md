@@ -38,23 +38,16 @@
 * 감염자의 접근이 쉽고 폐쇄적인 공간인 엘리베이터에 활용하여 의심환자 발생 시 빠른 대응
    * 의심환자의 경우, 선별진료소 방문 등의 조치
    * 관리자의 경우, 의심환자 발생 공간(엛리베이터)에 방역 실시
-
-<img src="./image/image_1_2.png" width="500" height="300"></br>@엘리베이터 감염 사례 : (출처 - 한국일보, New1, 인사이트)
-
       
 
    
+
 
 &nbsp;
 ## 🎈 __Information__
 1. 음성데이터에 대하여
 * Melspectogram : 음성데이터의 주파수 단위를 멜 단위(Mel Unit)으로 바꾸어 표현한 스펙트럼
-
-<img src="./image/image_2_1.png" width="500" height="300"></br>@Melspetogram 예시
-
 * MFCC: 음성데이터를 특징 벡터화 해주는 알고리즘
-
-<img src="./image/image_2_2.png" width="500" height="300">)</br>@MFCC 예시
 </br>
 </br>
 </br>
@@ -69,8 +62,9 @@
 * COVID19 분류
    * 학습모델 생성 및 Binary Classfication(COVID)
 * 프로토타입 제작
-</br>
-<img src="./image/image_2_3.png" width="500" height="300"></br>@COVID19 Cough Recognition Process
+
+
+<img src="./image/image_2_3.png" width="500" height="100"></br>@COVID19 Cough Recognition Process
    
    
    
@@ -88,7 +82,7 @@
 * SMOTE(Synthtic Minority Oversampling Technique)
    * 주제 특성상 양성데이터의 수가 적어 각각의 데이터 개수를 비슷하게 맞춰주기 위해 음성데이터는 Under sampling, 양성데이터는 Over sampling 진행
 
-<img src="./image/image_3_2.png" width="500" height="300"></br>@데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 오버샘플링 방식
+<img src="./image/image_3_2.png" width="500" height="200"></br>@데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 오버샘플링 방식
 
       
 
@@ -104,8 +98,6 @@
    * CNN 구조를 가졌으며, 많은 layer를 활용하여 깊은 네트워크 구조를 가짐
    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
    * 2015년 ILSVRC에서 우승한 알고리즘
-
-<img src="./image/image_4_1.png" width="500" height="300"></br>@ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
 </br>
 * 과적합 방지를 위한 5-fold Cross Validation
 </br>
@@ -116,7 +108,7 @@
 * ResNet50을 통한 Melspectogram 이미지 분류 : 정확도 55% ~ 60%
 * MFCC, MelSpectrogram으로 추출한 feature를 활용해 그림을 모델에 적용 : 정확도 55% ~ 60%
 
-<img src="./image/image_4_4.png" width="500" height="300"></br>@성능평가 수치
+<img src="./image/image_4_4.png" width="500" height="200"></br>@성능평가 수치
 </br>
 
       
@@ -148,7 +140,7 @@
    * Python 애플리케이션과 모든 종속 항목을 단일 패키지로 묶어 주는 라이브러리
    * Windows OS 기반 Python 미설치 환경에서도 운영가능하도록 exe 파일형태로 제작
  
-<img src="./image/image_5_2.png" width="500" height="300"></br>@데모시현 장면
+
 
       
 
@@ -162,6 +154,7 @@
    * 그래프 제공을 통한 기침 탐지 확인 
    * 영상 제공을 통한 코로나 탐지 확인
 
+<img src="./image/image_5_2.png" width="500" height="300"></br>@데모시현 장면
 </br>
 </br>
 </br>
