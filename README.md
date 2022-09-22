@@ -207,7 +207,7 @@
    * 그래프 제공을 통한 기침 탐지 확인 
    * 영상 제공을 통한 코로나 탐지 확인
 
-<img src="./image/demo.gif" width="500" height="300"></br>@데모시현 장면
+<iframe width="956" height="538" src="https://youtu.be/4_Df2c615xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></br>@데모시현 장면
 </br>
 </br>
 </br>
