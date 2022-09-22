@@ -190,7 +190,15 @@
    * (*) 여기서 문제가 되었던 부분은 하나의 파일로 만들기 위해 pyinstaller 명령어에  ```--onefile```옵션을 다는 것을 추천하지 않겠다. 라이브러리 누락으로 실행의 오류가 걸릴 가능성이 높다
    * (*) 또한 librosa 라이브러리의 경우, librosa/util/example_data가 누락되었다는 오류가 뜨므로, ```--add-data [파이썬 위치]/Lib/site-packages/librosa/util/example_data;librosa/util/example_data```옵션을 추가하여 파일을 수동으로 복사해주는 것이 좋다.
 
-<img src="./image/image_5_2.png" width="300" height="400"></br>@어플리케이션 구조 
+
+
+|주요액션|이상없음|기침감지|코로나감지|
+|---|---|---|---|
+|관련사진|<img src="./image/image_5_2.png" width="300" height="400">|<img src="./image/image_5_3.png" width="300" height="400">|<img src="./image/image_5_4.png" width="300" height="400">|
+
+
+
+@어플리케이션 구조 
 </br>
 </br>
 </br>
