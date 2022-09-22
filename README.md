@@ -52,11 +52,11 @@
 1. 음성데이터에 대하여
 * Melspectogram : 음성데이터의 주파수 단위를 멜 단위(Mel Unit)으로 바꾸어 표현한 스펙트럼
 
-![](./image/image.png)</br>Melspetogram 예시
+![](./image/image_2_1.png)</br>Melspetogram 예시
 
 * MFCC: 음성데이터를 특징 벡터화 해주는 알고리즘
 
-![](./image/image_2_1.png)</br>MFCC 예시
+![](./image/image_2_2.png)</br>MFCC 예시
 </br>
 </br>
 </br>
@@ -71,7 +71,7 @@
 * COVID19 분류
    * 학습모델 생성 및 Binary Classfication(COVID)
 * 프로토타입 제작
-![](./image/image_2_2.png)</br>COVID19 Cough Recognition Process
+![](./image/image_2_3.png)</br>COVID19 Cough Recognition Process
    
    
    
