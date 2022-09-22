@@ -113,7 +113,7 @@
 </br>
 </br>
 </br>
-2. 모델 성능평가
+2. 성능평가
 * Custom CNN을 통한 MFCC 데이터 분류 : 정확도 60%
 * ResNet50을 통한 Melspectogram 이미지 분류 : 정확도 55% ~ 60%
 * MFCC, MelSpectrogram으로 추출한 feature를 활용해 그림을 모델에 적용 : 정확도 55% ~ 60%
