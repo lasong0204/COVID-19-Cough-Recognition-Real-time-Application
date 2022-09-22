@@ -37,7 +37,7 @@
 2. 기대효과
 * 감염자의 접근이 쉽고 폐쇄적인 공간인 엘리베이터에 활용하여 의심환자 발생 시 빠른 대응
    * 의심환자의 경우, 선별진료소 방문 등의 조치
-   * 관리자의 경우, 의심환자 발생 공간(엛리베이터)에 방역 실시
+   * 관리자의 경우, 의심환자 발생 공간(엘리베이터)에 방역 실시
       
 
    
@@ -49,8 +49,7 @@
 * Melspectogram : 음성데이터의 주파수 단위를 멜 단위(Mel Unit)으로 바꾸어 표현한 스펙트럼
 * MFCC: 음성데이터를 특징 벡터화 해주는 알고리즘
 </br>
-</br>
-</br>
+
 2. 추진과정
 * 데이터 수집
    * 일반 기침소리, 코로나환자 기침소리 수집
@@ -74,6 +73,36 @@
 1. 데이터 수집
 * 다양한 기침 및 코로나 데이터셋 수집, 기타 소리분류를 위한 추가 데이터셋 수집
 
+
+<table>
+  <tr>
+    <th>제공</th>
+    <th>설명</th>
+    <th>사용 부분</th>
+  </tr>
+  <tr>
+    <td>ESC-50</td>
+    <td>일상의 소리 50종류를 5초 동안 녹음한 소리 파일</td>
+    <td> cough detection
+  </tr>
+  <tr>
+    <td>AI-HUB</td>
+    <td>자연 및 인공적 발생 비언어적 음성데이터</td>
+  </tr>
+  <tr>
+    <td>COUGHVID</td>
+    <td>연령, 성별, 거주지 및 COVID-19 상태를 나타내는 </td>
+  </tr>
+  <tr>
+    <td>내용</td>
+    <td>내용</td>
+  </tr>
+  <tr>
+    <td>내용</td>
+    <td>내용</td>
+  </tr>
+</table>
+
 <img src="./image/image_3_1.png" width="500" height="300"></br>@데이터셋 수집현황
 </br>
 </br>
@@ -92,17 +121,21 @@
 (1) 5초 단위로 Cut & Padding\
 (2) ResNet 학습을 위해 Melspectogram을 ImageNet 사이즈로  Crop & Resize
 
-2. 모델 선정
-* 이미지 분류에 주로 사용되는 ResNet 구조를 가져와서 학습
+2. 학습 및 모델 선정
+* 이미지 분류에 주로 사용되는 ResNet 구조를 가져와서 학습.
+* 5-fold Cross Validation 적용.
 * 멜스펙토그램의 특성에 맞도록 weight 제외하고 구조만 가져옴. ```pretrained=False```로 두고, weight를 계속 업데이트.
+* 성능 지표 민감도를 우선 순위로 두고, 나머지 세 지표도 고려하여 모델 선정.
 
 
-|모형\지표|Accuracy|Precision|Recall|F1-score|
+|모형\지표|Accuracy|Precision|Sensitivity|F1-score|
 |---|---|---|---|---|
 |ResNet18|0.855|0.826|0.854|0.840|
 |ResNet50-fc2|0.880|0.865|0.892|0.878|
 |ResNet50-fc2|0.845|0.802|0.829|0.815|
    
+민감도를 포함한 네가지 성능 지표 모두 우수한 "ResNet50 - 2 fully-connected layers' 모델로 선정.
+
 
 &nbsp;
 ## 🎈 __Modeling__
