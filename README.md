@@ -1,4 +1,4 @@
-# Sesac_Project_COVID19_Cough_Recognition(Real-Time Application)
+# Sesac_Project_COVID-19_Cough_Recognition(Real-Time Application)
 
 &nbsp;
 ## 🎈 __목차__
@@ -83,30 +83,30 @@
   <tr>
     <td>ESC-50</td>
     <td>일상의 소리 50종류를 5초 동안 녹음한 소리 파일</td>
-    <td> cough detection
+    <td rowspan="3"> Cough Detection</td>
   </tr>
   <tr>
     <td>AI-HUB</td>
-    <td>자연 및 인공적 발생 비언어적 음성데이터</td>
+    <td>자연 및 인공적 발생 비언어적 음성 데이터</td>
   </tr>
   <tr>
     <td>COUGHVID</td>
-    <td>연령, 성별, 거주지 및 COVID-19 상태를 나타내는 </td>
+    <td>연령, 성별, 거주지 및 COVID-19 상태를 포함한 음성 데이터</td>
   </tr>
   <tr>
-    <td>내용</td>
-    <td>내용</td>
+    <td>Coswara Heavy Data</td>
+    <td>Coivd-19 감염자의 기침소리가 포함된 기침 데이터</td>
+    <td rowspan="2"> Covid-19 Classification</td>
   </tr>
   <tr>
-    <td>내용</td>
-    <td>내용</td>
+    <td>VIRUFY(DACON)</td>
+    <td>Covid-19 검사자들의 기침소리로 확진자의 소리가 포함됨</td>
   </tr>
 </table>
 
-<img src="./image/image_3_1.png" width="500" height="300"></br>@데이터셋 수집현황
+
 </br>
-</br>
-</br>
+
 2. 데이터 전처리
 * SMOTE(Synthtic Minority Oversampling Technique)
    * 주제 특성상 양성데이터의 수가 적어 각각의 데이터 개수를 비슷하게 맞춰주기 위해 음성데이터는 Under sampling, 양성데이터는 Over sampling 진행
@@ -116,14 +116,14 @@
      
      
  &nbsp;
-## 🎈 __Modeling__
+## 🎈 __Modeling__: Cough Detection
 1. 데이터 처리\
 (1) 5초 단위로 Cut & Padding\
 (2) ResNet 학습을 위해 Melspectogram을 ImageNet 사이즈로  Crop & Resize
 
 2. 학습 및 모델 선정
-* 이미지 분류에 주로 사용되는 ResNet 구조를 가져와서 학습.
-* 5-fold Cross Validation 적용.
+* 이미지 분류에 주로 사용되는 ResNet으로 Transfer learning.
+* 5-fold Cross Validation 적용하여 과적합 방지.
 * 멜스펙토그램의 특성에 맞도록 weight 제외하고 구조만 가져옴. ```pretrained=False```로 두고, weight를 계속 업데이트.
 * 성능 지표 민감도를 우선 순위로 두고, 나머지 세 지표도 고려하여 모델 선정.
 
@@ -148,10 +148,10 @@
    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
    * 2015년 ILSVRC에서 우승한 알고리즘
 </br>
-* 과적합 방지를 위한 5-fold Cross Validation
 </br>
 </br>
 </br>
+
 2. 성능평가
 * Custom CNN을 통한 MFCC 데이터 분류 : 정확도 60%
 * ResNet50을 통한 Melspectogram 이미지 분류 : 정확도 55% ~ 60%
