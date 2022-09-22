@@ -188,7 +188,7 @@
    * Python 애플리케이션과 모든 종속 항목을 단일 패키지로 묶어 주는 라이브러리
    * Windows OS 기반 Python 미설치 환경에서도 운영가능하도록 exe 파일형태로 제작
 
-<img src="./image/image_5_2.png" width="500" height="300"></br>@어플리케이션 구조
+<img src="./image/image_5_2.png" width="300" height="400"></br>@어플리케이션 구조
 </br>
 </br>
 </br>
@@ -206,8 +206,8 @@
    * 실시간 음성데이터 학습모델 분석
    * 그래프 제공을 통한 기침 탐지 확인 
    * 영상 제공을 통한 코로나 탐지 확인
-
-<iframe width="956" height="538" src="https://youtu.be/4_Df2c615xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></br>@데모시현 장면
+ 
+[![Video Label](http://i.ytimg.com/vi/4_Df2c615xk/0.jpg)](https://youtu.be/4_Df2c615xk)</br>@데모시현 장면
 </br>
 </br>
 </br>
