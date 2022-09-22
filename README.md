@@ -1,7 +1,7 @@
 # Sesac_Project_COVID19_Cough_Recognition(Real-Time Application)
 
 &nbsp;
-<img src="./image/image.png" width="500" height="120">
+<img src="./image/main.png" width="500" height="120">
 &nbsp;
 ## 🎈 __목차__
 1. Subject
@@ -56,7 +56,7 @@
 
 * MFCC: 음성데이터를 특징 벡터화 해주는 알고리즘
 
-![](./image/image.png)</br>MFCC 예시
+![](./image/image_2_1.png)</br>MFCC 예시
 </br>
 </br>
 </br>
@@ -71,8 +71,7 @@
 * COVID19 분류
    * 학습모델 생성 및 Binary Classfication(COVID)
 * 프로토타입 제작
-* 
-![](./image/image_2_3.png)</br>COVID19 Cough Recognition Process
+![](./image/image_2_2.png)</br>COVID19 Cough Recognition Process
    
    
    
