@@ -100,15 +100,13 @@
 ## 🎈 __Modeling__
 1. 학습모델 선정
    * 데이터 선행처리 : 동일한 수준의 음성데이터 처리(5초) 
-</br>
-* Custom CNN을 통한 MFCC 데이터 분류
-   * Zero crossing rate, rmse, spectral cetroid 등 총 46개의 feature 사용
-</br>
+   * Custom CNN을 통한 MFCC 데이터 분류
+    * Zero crossing rate, rmse, spectral cetroid 등 총 46개의 feature 사용
    * ResNet50을 통한 Melspectogram 이미지 분류    
    * ResNet50 특징
-      * CNN 구조를 가졌으며, 많은 layer를 활용하여 깊은 네트워크 구조를 가짐
-      * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
-      * 2015년 ILSVRC에서 우승
+    * CNN 구조를 가졌으며, 많은 layer를 활용하여 깊은 네트워크 구조를 가짐
+    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
+    * 2015년 ILSVRC에서 우승
 
 ![](./image/image.png)</br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
 </br>
