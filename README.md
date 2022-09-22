@@ -1,8 +1,6 @@
 # Sesac_Project_COVID19_Cough_Recognition(Real-Time Application)
 
 &nbsp;
-<img src="./image/main.png" width="500" height="120">
-&nbsp;
 ## 🎈 __목차__
 1. Subject
     * 추진배경
@@ -52,11 +50,11 @@
 1. 음성데이터에 대하여
 * Melspectogram : 음성데이터의 주파수 단위를 멜 단위(Mel Unit)으로 바꾸어 표현한 스펙트럼
 
-![](./image/image_2_1.png)</br>Melspetogram 예시
+<img src="./image/image_2_1.png" width="500" height="120"></br>Melspetogram 예시
 
 * MFCC: 음성데이터를 특징 벡터화 해주는 알고리즘
-
-![](./image/image_2_2.png)</br>MFCC 예시
+* 
+<img src="./image/image_2_2.png" width="500" height="120">)</br>MFCC 예시
 </br>
 </br>
 </br>
@@ -71,7 +69,7 @@
 * COVID19 분류
    * 학습모델 생성 및 Binary Classfication(COVID)
 * 프로토타입 제작
-![](./image/image_2_3.png)</br>COVID19 Cough Recognition Process
+<img src="./image/image_2_3.png" width="500" height="120"></br>COVID19 Cough Recognition Process
    
    
    
@@ -81,7 +79,7 @@
 1. 데이터 수집
 * 다양한 기침 및 코로나 데이터셋 수집, 기타 소리분류를 위한 추가 데이터셋 수집
 
-![](./image/image_3_1.png)</br>데이터셋 수집현황
+<img src="./image/image_3_1.png" width="500" height="120"></br>데이터셋 수집현황
 </br>
 </br>
 </br>
@@ -89,7 +87,7 @@
 * SMOTE(Synthtic Minority Oversampling Technique)
    * 주제 특성상 양성데이터의 수가 적어 각각의 데이터 개수를 비슷하게 맞춰주기 위해 음성데이터는 Under sampling, 양성데이터는 Over sampling 진행
 
-![](./image/image_3_2.png)</br>데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 오버샘플링 방식
+<img src="./image/image_3_2.png" width="500" height="120"></br>데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 오버샘플링 방식
 
       
 
@@ -106,7 +104,7 @@
    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
    * 2015년 ILSVRC에서 우승한 알고리즘
 
-![](./image/image_4_1.png)</br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
+<img src="./image/image_4_1.png" width="500" height="120"></br>ResNet(2014) : MS에서 개발한 이미지 분류용 CNN 모델
 </br>
 * 과적합 방지를 위한 5-fold Cross Validation
 </br>
@@ -117,9 +115,9 @@
 * ResNet50을 통한 Melspectogram 이미지 분류 : 정확도 55% ~ 60%
 * MFCC, MelSpectrogram으로 추출한 feature를 활용해 그림을 모델에 적용 : 정확도 55% ~ 60%
 
-![](./image/image_4_2.png)</br>성능평가 수치 1
-![](./image/image_4_3.png)</br>성능평가 수치 2
-![](./image/image_4_4.png)</br>성능평가 수치 3
+<img src="./image/image_4_2.png" width="500" height="120">)</br>성능평가 수치 1
+<img src="./image/image_4_3.png" width="500" height="120"></br>성능평가 수치 2
+<img src="./image/image_4_4.png" width="500" height="120"></br>성능평가 수치 3
 
       
 
@@ -134,7 +132,7 @@
    * Librosa : 음성데이터의 특징 변수 추출
    * Torch : Pytorch를 활용한 학습모델 적용
 
-![](./image/image_5_1.png)</br>주요 라이브러리
+<img src="./image/image_5_1.png" width="500" height="120"></br>주요 라이브러리
 </br>
 </br>
 </br>
@@ -149,8 +147,8 @@
 * Pyinstaller를 이용한 실행파일 제작
    * Python 애플리케이션과 모든 종속 항목을 단일 패키지로 묶어 주는 라이브러리
    * Windows OS 기반 Python 미설치 환경에서도 운영가능하도록 exe 파일형태로 제작
-
-![](./image/image_5_2.png)</br>데모시현 장면
+   * 
+<img src="./image/image_5_2.png" width="500" height="120"></br>데모시현 장면
 
       
 
