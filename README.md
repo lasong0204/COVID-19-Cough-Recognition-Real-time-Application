@@ -187,6 +187,11 @@
 * Pyinstaller를 이용한 실행파일 제작
    * Python 애플리케이션과 모든 종속 항목을 단일 패키지로 묶어 주는 라이브러리
    * Windows OS 기반 Python 미설치 환경에서도 운영가능하도록 exe 파일형태로 제작
+
+<img src="./image/image_5_2.png" width="500" height="300"></br>@어플리케이션 구조
+</br>
+</br>
+</br>
  
 
 
@@ -202,7 +207,7 @@
    * 그래프 제공을 통한 기침 탐지 확인 
    * 영상 제공을 통한 코로나 탐지 확인
 
-<img src="./image/image_5_2.png" width="500" height="300"></br>@데모시현 장면
+<img src="./image/demo.gif" width="500" height="300"></br>@데모시현 장면
 </br>
 </br>
 </br>
@@ -210,6 +215,7 @@
 * 성능 향상
    * 데이터 변형 및 잡음 제거를 통한 데이터 구축
    * COVID19 분류 시 60% -> 80% 이상의 정확도 기대
+   * 
 
 * 활용도 확장
    * 다양한 환경에서 서비스 구축
