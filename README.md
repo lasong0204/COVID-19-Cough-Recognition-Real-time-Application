@@ -98,7 +98,7 @@
 
 &nbsp;
 ## 🎈 __Modeling__
-1. 학습모델 선정
+1. 학습모델 선택
    * 데이터 선행처리 : 동일한 수준의 음성데이터 처리(5초) 
    * Custom CNN을 통한 MFCC 데이터 분류
     * Zero crossing rate, rmse, spectral cetroid 등 총 46개의 feature 사용
