@@ -53,7 +53,7 @@
 <img src="./image/image_2_1.png" width="500" height="120"></br>Melspetogram 예시
 
 * MFCC: 음성데이터를 특징 벡터화 해주는 알고리즘
-* 
+
 <img src="./image/image_2_2.png" width="500" height="120">)</br>MFCC 예시
 </br>
 </br>
@@ -116,8 +116,11 @@
 * MFCC, MelSpectrogram으로 추출한 feature를 활용해 그림을 모델에 적용 : 정확도 55% ~ 60%
 
 <img src="./image/image_4_2.png" width="500" height="120">)</br>성능평가 수치 1
+</br>
 <img src="./image/image_4_3.png" width="500" height="120"></br>성능평가 수치 2
+</br>
 <img src="./image/image_4_4.png" width="500" height="120"></br>성능평가 수치 3
+</br>
 
       
 
@@ -147,8 +150,8 @@
 * Pyinstaller를 이용한 실행파일 제작
    * Python 애플리케이션과 모든 종속 항목을 단일 패키지로 묶어 주는 라이브러리
    * Windows OS 기반 Python 미설치 환경에서도 운영가능하도록 exe 파일형태로 제작
-   * 
-<img src="./image/image_5_2.png" width="500" height="120"></br>데모시현 장면
+ 
+<img src="./image/image_5_2.png" width="500" height="400"></br>데모시현 장면
 
       
 
