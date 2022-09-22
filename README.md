@@ -84,7 +84,19 @@
 
 <img src="./image/image_3_2.png" width="500" height="200"></br>@데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 오버샘플링 방식
 
-      
+     
+     
+ &nbsp;
+## 🎈 __Modeling__
+1. 데이터 처리\
+(1) 5초 단위로 Cut & Padding\
+(2) ResNet 학습을 위해 Melspectogram을 ImageNet 사이즈로  Crop & Resize
+
+2. 모델 선정
+* 이미지 분류에 주로 사용되는 ResNet 구조를 가져와서 학습
+* 멜스펙토그램의 특성에 맞도록 weight 제외하고 구조만 가져옴. ```pretrained=False```로 두고, weight를 계속 업데이트.
+
+
 |모형\지표|Accuracy|Precision|Recall|F1-score|
 |---|---|---|---|---|
 |ResNet18|0.855|0.826|0.854|0.840|
@@ -112,8 +124,7 @@
 * ResNet50을 통한 Melspectogram 이미지 분류 : 정확도 55% ~ 60%
 * MFCC, MelSpectrogram으로 추출한 feature를 활용해 그림을 모델에 적용 : 정확도 55% ~ 60%
 
-<img src="./image/image_4_4.png" width="500" height="200"></br>@성능평가 수치
-</br>
+
 
       
 
