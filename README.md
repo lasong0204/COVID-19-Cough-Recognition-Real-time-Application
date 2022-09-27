@@ -34,10 +34,9 @@
 
 
 
-|참고사진|
+|Covid19 일별 확진자 동향 : (출처 - Google News 검색)|
 |:---:|
 |<img src="./image/image_1_1.png" width="500" height="250">|
-|Covid19 일별 확진자 동향 : (출처 - Google News 검색)|
    
 
 
@@ -78,10 +77,9 @@
 
 
 
-|참고사진|
+|COVID19 Cough Recognition Process|
 |:---:|
 |<img src="./image/image_2_3.png" width="500" height="150">|
-|COVID19 Cough Recognition Process|
    
    
    
@@ -129,7 +127,12 @@
 * SMOTE(Synthtic Minority Oversampling Technique)
    * 주제 특성상 양성데이터의 수가 적어 각각의 데이터 개수를 비슷하게 맞춰주기 위해 음성데이터는 Under sampling, 양성데이터는 Over sampling 진행
 
-<img src="./image/image_3_2.png" width="500" height="200"></br>@데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 오버샘플링 방식
+
+
+|오버샘플링 방식|
+|:---:|
+|<img src="./image/image_3_2.png" width="500" height="200">|
+|데이터의 개수가 적은 클래스의  표본을 가져운 뒤, 임의로 추가하는 방식|
 
      
      
@@ -202,10 +205,12 @@
 
 
 
-<img src="./image/image_5_1.png" width="500" height="100"></br>@주요 라이브러리
-</br>
-</br>
-</br>
+|주요라이브러리|
+|:---:|
+|<img src="./image/image_5_1.png" width="500" height="100">|
+
+
+
 ### 2. 애플리케이션 제작
 * PyQt5를 이용한 GUI 형태의 애플리케이션 구현
    * Qdesigner를 이용하여 전체적인 UI 디자인을 간단하게 진행 
