@@ -200,7 +200,7 @@
 |OpenCV|웹캠을 통한 영상데이터 입력 및 이미지파일 저장|
 |Librosa|음성데이터의 특징 변수 추출|
 |Torch|Pytorch를 활용한 학습모델 적용|
-|<img src="./image/image_5_1.png" width="500" height="100">|
+|참고사진|<img src="./image/image_5_1.png" width="500" height="100">|
 
 
 
