@@ -119,7 +119,7 @@
      
  &nbsp;
 ## 🎈 __Modeling__: Cough Detection
-### 1. 데이터 처리\
+### 1. 데이터 처리
 (1) 5초 단위로 Cut & Padding\
 (2) ResNet 학습을 위해 Melspectogram을 ImageNet 사이즈로  Crop & Resize
 
