@@ -161,7 +161,7 @@
 
 
 &nbsp;
-## 🎈 __Modeling__
+## 🎈 __Modeling__: COVID-19 Classification
 ### 1. 학습모델 선정
 * 데이터 선행처리 : 동일한 수준의 음성데이터 처리(5초) 
 * ANN 모델을 활용하여 MFCC 데이터 분류
@@ -169,7 +169,6 @@
 * ResNet50을 통한 Melspectogram 이미지 분류   
    * CNN 구조를 가졌으며, 많은 layer를 활용하여 깊은 네트워크 구조를 가짐
    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
-   * 2015년 ILSVRC에서 우승한 알고리즘
 
 
 
