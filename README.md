@@ -53,14 +53,12 @@
 ### 1. 음성데이터에 대하여
 * Melspectogram : 음성데이터의 주파수 단위를 멜 단위(Mel Unit)으로 바꾸어 표현한 스펙트럼
 * MFCC: 음성데이터를 특징 벡터화 해주는 알고리즘
-</br>
 
 
 
-|구분|이상없음|기침감지|코로나감지|
-|---|---|---|---|
-|사진(앱)|<img src="./image/image_5_3.png" width="300" height="345">|<img src="./image/image_5_2.png" width="300" height="345">|<img src="./image/image_5_4.png" width="300" height="345">|
-
+|구분|Melspctogram|MFCC|
+|---|---|---|
+|사진(앱)|<img src="./image/image_1_1.png" width="300" height="300">|<img src="./image/image_1_2.png" width="300" height="300">|
 
 
 
