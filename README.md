@@ -164,7 +164,7 @@
 ## 🎈 __Modeling__
 ### 1. 학습모델 선정
 * 데이터 선행처리 : 동일한 수준의 음성데이터 처리(5초) 
-* Custom CNN을 통한 MFCC 데이터 분류
+* ANN 모델을 활용하여 MFCC 데이터 분류
    * Zero crossing rate, rmse, spectral cetroid 등 총 46개의 feature 사용
 * ResNet50을 통한 Melspectogram 이미지 분류   
    * CNN 구조를 가졌으며, 많은 layer를 활용하여 깊은 네트워크 구조를 가짐
