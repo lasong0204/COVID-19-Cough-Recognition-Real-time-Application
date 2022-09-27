@@ -58,7 +58,7 @@
 
 |구분|Melspctogram|MFCC|
 |---|---|---|
-|사진(앱)|<img src="./image/image_1_1.png" width="300" height="300">|<img src="./image/image_1_2.png" width="300" height="300">|
+|사진(앱)|<img src="./image/image_2_1.png" width="300" height="300">|<img src="./image/image_2_2.png" width="300" height="300">|
 
 
 
