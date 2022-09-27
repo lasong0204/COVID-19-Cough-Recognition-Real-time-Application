@@ -234,8 +234,8 @@
 
 
 |구분|이상없음|기침감지|코로나감지|
-|---|---|---|---|
-|사진(앱)|<img src="./image/image_5_3.png" width="300" height="345">|<img src="./image/image_5_2.png" width="300" height="345">|<img src="./image/image_5_4.png" width="300" height="345">|
+|:---:|---|---|---|
+|사진|<img src="./image/image_5_3.png" width="300" height="345">|<img src="./image/image_5_2.png" width="300" height="345">|<img src="./image/image_5_4.png" width="300" height="345">|
 
 
 
