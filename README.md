@@ -223,7 +223,9 @@
 
 
 
-</br>
+|아키텍쳐|
+|:---:|
+|<img src="./image/image_5_5.png" width="300" height="600">|
 
 
 
