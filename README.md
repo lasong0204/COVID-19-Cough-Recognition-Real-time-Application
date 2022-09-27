@@ -168,10 +168,8 @@
    * CNN 구조를 가졌으며, 많은 layer를 활용하여 깊은 네트워크 구조를 가짐
    * Vanishing Gradient 문제를 해결하기 위해 Residual Block을 이용
    * 2015년 ILSVRC에서 우승한 알고리즘
-</br>
-</br>
-</br>
-</br>
+
+
 
 ### 2. 성능평가
 
@@ -244,18 +242,8 @@
 |:---:|---|---|---|
 |사진|<img src="./image/image_5_3.png" width="300" height="345">|<img src="./image/image_5_2.png" width="300" height="345">|<img src="./image/image_5_4.png" width="300" height="345">|
 
-
-
-@어플리케이션 구조 
-</br>
-</br>
-</br>
  
-
-
       
-
-   
 
 &nbsp;
 ## 🎈 __Conclusion__
@@ -265,15 +253,20 @@
    * 그래프 제공을 통한 기침 탐지 확인 
    * 영상 제공을 통한 코로나 탐지 확인
  
-[![Video Label](http://i.ytimg.com/vi/4_Df2c615xk/0.jpg)](https://youtu.be/4_Df2c615xk)</br>@데모시현 장면
-</br>
-</br>
-</br>
+ 
+ 
+|데모시현장면|
+|:---:|
+|[![Video Label](http://i.ytimg.com/vi/4_Df2c615xk/0.jpg)](https://youtu.be/4_Df2c615xk)|
+ 
+
+
 ### 2. 개선방향
 * 성능 향상
    * 데이터 변형 및 잡음 제거를 통한 데이터 구축
    * COVID19 분류 시 60% -> 80% 이상의 정확도 기대
-   * 
+ 
+ 
 
 * 활용도 확장
    * 다양한 환경에서 서비스 구축
