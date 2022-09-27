@@ -225,7 +225,7 @@
 
 |아키텍쳐|
 |:---:|
-|<img src="./image/image_5_5.png" width="400" height="150">|
+|<img src="./image/image_5_5.png" width="700" height="200">|
 
 
 
