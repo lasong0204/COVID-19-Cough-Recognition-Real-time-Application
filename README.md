@@ -58,7 +58,7 @@
 
 |구분|Melspctogram|MFCC|
 |---|---|---|
-|예시|<img src="./image/image_2_1.png" width="300" height="250">|<img src="./image/image_2_2.png" width="300" height="250">|
+|예시|<img src="./image/image_2_1.png" width="300" height="200">|<img src="./image/image_2_2.png" width="300" height="200">|
 
 
 
