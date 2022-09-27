@@ -75,7 +75,11 @@
 * 프로토타입 제작
 
 
-<img src="./image/image_2_3.png" width="500" height="150"></br>@COVID19 Cough Recognition Process
+
+|참고사진|
+|---|
+|<img src="./image/image_2_3.png" width="500" height="150">|
+|COVID19 Cough Recognition Process|
    
    
    
