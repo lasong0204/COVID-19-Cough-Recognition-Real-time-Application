@@ -30,7 +30,7 @@
 ### 1. 추진배경
 * 코로나19 재유행에 따라 기침소리를 이용해 실시간으로 감염여부를 판단하고 함
 * 이 프로젝트를 시작한 2022년 07월부터 일일 확진자 수가 증가세를 보임에 따라 주제선정의 공감대 형성
-* 또한 엘리베이터 등 밀집지역에서의 코로나 확산방지를 위해 기침소리 데이터분석 및 모델구축을 연구해보고자 함
+* 또한 엘리베이터 등 밀집지역에서의 코로나 확산방지를 위해 기침소리 데이터 분석 및 모델 구축을 연구해보고자 함
 
 
 
@@ -53,7 +53,7 @@
 ## 🎈 __Information__
 ### 1. 음성데이터에 대하여
 * Melspectogram : 음성데이터의 주파수 단위를 멜 단위(Mel Unit)으로 바꾸어 표현한 스펙트럼
-* MFCC: 음성데이터를 특징 벡터화 해주는 알고리즘
+* MFCC : 음성데이터를 특징 벡터화 해주는 알고리즘
 
 
 
@@ -124,6 +124,7 @@
 </br>
 
 ### 2. 데이터 전처리
+* Feature 추출 및 Spectogram 생성
 * SMOTE(Synthtic Minority Oversampling Technique)
    * 주제 특성상 양성데이터의 수가 적어 각각의 데이터 개수를 비슷하게 맞춰주기 위해 음성데이터는 Under sampling, 양성데이터는 Over sampling 진행
 
@@ -139,7 +140,7 @@
  &nbsp;
 ## 🎈 __Modeling__: Cough Detection
 ### 1. 데이터 처리
-(1) 5초 단위로 Cut & Padding\
+(1) 5초 단위로 Cut & Padding
 (2) ResNet 학습을 위해 Melspectogram을 ImageNet 사이즈로  Crop & Resize
 
 ### 2. 학습 및 모델 선정
