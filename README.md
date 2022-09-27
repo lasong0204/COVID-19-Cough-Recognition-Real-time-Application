@@ -34,11 +34,13 @@
 
 
 
+|참고사진|
+|:---:|
+|<img src="./image/image_1_1.png" width="500" height="250">|
+|Covid19 일별 확진자 동향 : (출처 - Google News 검색)|
+   
 
-<img src="./image/image_1_1.png" width="500" height="250"></br>@Covid19 일별 확진자 동향 : (출처 - Google News 검색)
-</br>
-</br>
-</br>
+
 ### 2. 기대효과
 * 감염자의 접근이 쉽고 폐쇄적인 공간인 엘리베이터에 활용하여 의심환자 발생 시 빠른 대응
    * 의심환자의 경우, 선별진료소 방문 등의 조치
