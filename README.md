@@ -179,9 +179,9 @@
 
 |구분|내용|
 |:---:|:---:|
-|Custom CNN을 통한 MFCC Feature 분류|정확도 60%|
-|ResNet50을 통한 Melspectogram Feature 분류|정확도 55% ~ 60%|
-|MFCC, MelSpectrogram으로 추출한 feature 분류|정확도 55% ~ 60%|
+|MFCC, Zero crossing rate, rmse 등 46개의 feature를 활용하여 ANN모델로 분류|정확도 65%|
+|ResNet50을 통한 Melspectogram feature 분류|정확도 60% ~ 62%|
+|MFCC, MelSpectrogram으로 추출한 feature 분류|정확도 55% ~ 61%|
 
 
 
