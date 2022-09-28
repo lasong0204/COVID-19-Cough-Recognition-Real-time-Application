@@ -255,7 +255,7 @@
  
 |데모시현장면|
 |:---:|
-|[![Video Label](http://i.ytimg.com/vi/4_Df2c615xk/0.jpg)](https://youtu.be/4_Df2c615xk)|
+|[![Video Label](http://i.ytimg.com/vi/r1VyT-XlYts/0.jpg)](https://youtu.be/r1VyT-XlYts)|
  
 
 
