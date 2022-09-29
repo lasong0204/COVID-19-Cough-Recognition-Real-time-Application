@@ -147,11 +147,11 @@
 
 |기침|
 |:---:|
-|<img src="./image/cough1.png" width="290" height="220"> <img src="./image/cough2.png" width="290" height="220"> <img src="./image/cough3.png" width="290" height="220">|
+|<img src="./image/cough1.png" width="280" height="215"> <img src="./image/cough2.png" width="280" height="215"> <img src="./image/cough3.png" width="280" height="215">|
 
 |기침 외의 음성|
 |:---:|
-|<img src="./image/iphone-ringtone-trap-remix_5.png" width="290" height="220"> <img src="./image/mel_cat.png" width="290" height="220"> <img src="./image/mel_clapping.png" width="290" height="220">|
+|<img src="./image/iphone-ringtone-trap-remix_5.png" width="280" height="215"> <img src="./image/mel_cat.png" width="280" height="215"> <img src="./image/mel_clapping.png" width="280" height="215">|
 |왼쪽부터 아이폰 벨소리, 고양이 울음 소리, 박수 소리|
 
 ### 3. 학습 및 모델 선정
