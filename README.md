@@ -140,14 +140,25 @@
  &nbsp;
 ## 🎈 __Modeling__: Cough Detection
 ### 1. 데이터 처리
-(1) 5초 단위로 Cut & Padding
-(2) ResNet 학습을 위해 Mel-Spectogram을 ImageNet 사이즈로  Crop & Resize
+* 5초 단위로 Cut & Padding
+* ResNet 학습을 위해 Mel-Spectogram을 ImageNet 사이즈로  Crop & Resize
 
-### 2. 학습 및 모델 선정
+### 2. 데이터 확인
+
+|기침|
+|:---:|
+|<img src="./image/cough1.png" width="290" height="220"> <img src="./image/cough2.png" width="290" height="220"> <img src="./image/cough3.png" width="290" height="220">|
+
+|기침 외의 음성|
+|:---:|
+|<img src="./image/iphone-ringtone-trap-remix_5.png" width="290" height="220"> <img src="./image/mel_cat.png" width="290" height="220"> <img src="./image/mel_clapping.png" width="290" height="220">|
+|왼쪽부터 아이폰 벨소리, 고양이 울음 소리, 박수 소리|
+
+### 3. 학습 및 모델 선정
 * 이미지 분류에 주로 사용되는 ResNet으로 Transfer learning.
 * 5-fold Cross Validation 적용하여 과적합 방지.
-* 멜스펙토그램의 특성에 맞도록 weight 제외하고 구조만 이용. ```pretrained=False```로 두고, weight를 계속 업데이트.
-* 성능 지표 민감도를 우선 순위로 두고, 나머지 세 지표도 고려하여 모델 선정.
+* Mel-Spectrogram의 특성에 맞도록 weight 제외하고 구조만 이용. ```pretrained=False```로 두고, weight를 계속 업데이트.
+* 성능 지표는 민감도를 우선 순위로 두고, 나머지 세 지표도 고려하여 모델 선정.
 * fully-connected layer를 조정하며 최적 모델을 찾음.
 
 
@@ -157,7 +168,7 @@
 |ResNet50-fc2|0.880|0.865|0.865|0.865|
 |ResNet50-fc3|0.845|0.865|0.802|0.832|
    
-민감도를 포함한 네가지 성능 지표 모두 우수한 "ResNet50 - 2 fully-connected layers' 모델로 선정.
+* 민감도를 포함한 네가지 성능 지표 모두 우수한 "ResNet50 - 2 fully-connected layers' 모델로 선정.
 
 
 &nbsp;
